@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="canonical" href="">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!--Favicons-->
+<!--     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff"> -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!--<script src="less.js" type="text/javascript"></script>  -->
+    <!--<link rel="stylesheet/less" type="text/css" href="styles.less" />  -->
+    <script type="text/javascript" src="script.js"></script>
+
+    <title>Mariage</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main id="main">
+            <div class="frame">
+                <picture >
+                    <source srcset="assets/painting1.jpeg" media="(max-width:600px) and (orientation: portrait)" />
+                    <source srcset="assets/painting2.png" media="(max-width:600px) and (orientation: landscape)" />
+                    <source  srcset="assets/painting2.png" media="(min-width:601px) " />
+                    <img  id="painting" class="painting" aria-hidden="true" loading="lazy" decoding="async" src="assets/painting2.png" alt="painting" />
+                </picture>
+                <div id="content" class="content">test</div>
+
+                <button class="button" onclick="openContent()">Click Me!</button> 
+            </div>
+
+    </main>
+</body>
+<!-- <picture>
+    <source media="(max-width:600px)" srcset="/assets/painting-mobile.jpg">
+    <source srcset="/media/cc0-images/surfer-240-200.jpg" media="(orientation: portrait)" />
+    <source media="(min-width:601px)" srcset="/assets/painting.jpg">
+    <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/painting.jpg" alt="appliance" width="" height="">
+</picture> -->

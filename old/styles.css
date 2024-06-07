@@ -1,0 +1,114 @@
+.main {
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    background:url("assets/painting2.png");
+
+}
+
+
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.button:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+
+.frame {
+    /* display:grid; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* transform: translate(-50%, -50%);*/
+    background-color:#ddc;
+    border:solid 5vmin #eee;
+    border-bottom-color:#fff;
+    border-left-color:#eee;
+    border-radius:2px;
+    border-right-color:#eee;
+    border-top-color:#ddd;
+    box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+    box-sizing:border-box;
+    margin:20vh 5vw;
+    height:60vh;
+    padding:8vmin;
+    position:relative;
+    text-align:center;
+    z-index: 8;
+}
+
+@media screen and (min-width: 601px) {
+    .frame {
+        margin:10vh 10vw;
+        height:80vh;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .frame {
+        margin:10vh 15vw;
+        height:80vh;
+    }
+}
+
+.frame::before {
+        border-radius:2px;
+        bottom:-2vmin;
+        box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
+        content:"";
+        left:-2vmin;
+        position:absolute;
+        right:-2vmin;
+        top:-2vmin;
+        
+    }
+.frame::after {
+        border-radius:2px;
+        bottom:-2.5vmin;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+        content:"";
+        left:-2.5vmin;
+        position:absolute;
+        right:-2.5vmin;
+        top:-2.5vmin;
+    }
+
+.painting {
+    border:solid 2px;
+  border-bottom-color:#ffe;
+  border-left-color:#eed;
+  border-right-color:#eed;
+  border-top-color:#ccb;
+  height:100%;
+  max-width:100%;
+  display:inline-block;
+
+
+}
+
+.content {
+    display:None;
+    height:100%;
+    width:100%;
+    background-color: red;
+    z-index: 9;
+}
