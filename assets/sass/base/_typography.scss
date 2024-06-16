@@ -71,7 +71,6 @@
 		font-weight: _font(weight-heading);
 		line-height: 1.3;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		letter-spacing: -0.05em;
 
 		a {
 			color: inherit;
@@ -107,8 +106,9 @@
 		}
 	}
 
+	/** HERE **/
 	h2 {
-		font-size: 1.75rem;
+		font-size: 2.25rem;
 		line-height: 1.2;
 
 		&.major {

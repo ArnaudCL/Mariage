@@ -76,9 +76,9 @@
 			height: 100%;
 			z-index: -1;
 			background-attachment: local;
-			background-color: _palette(bg-alt);
+			background-color: #FFF8EB;
 			//background-image: url('../../images/overlay.png'), url('../../images/bg.jpg');
-			@include gradient-background-body;
+			//@include gradient-background-body;
 			background-repeat: repeat, repeat-x;
 			background-size: 128px 128px, cover;
 		}

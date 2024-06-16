@@ -174,8 +174,6 @@ body {
     z-index: -1;
     background-attachment: local;
     background-color: #FFF8EB;
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(194, 61, 42, 0.75) 25%, rgba(250, 191, 83, 0.75) 50%, rgba(255, 248, 235, 0.75));
-    background-size: 128px 128px, auto;
     background-repeat: repeat, repeat-x;
     background-size: 128px 128px, cover; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -224,7 +222,7 @@ html {
 
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.75);
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.65; }
@@ -258,11 +256,10 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.875);
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-family: Garamond, Helvetica, sans-serif;
+  font-weight: 400;
   line-height: 1.3;
-  margin: 0 0 0.75rem 0;
-  letter-spacing: -0.05em; }
+  margin: 0 0 0.75rem 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none; }
@@ -285,8 +282,9 @@ h1 {
     h1.major:after {
       bottom: -1.325rem; }
 
+/** HERE **/
 h2 {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
   line-height: 1.2; }
   h2.major {
     margin: 0 0 1.9875rem 0; }
@@ -328,14 +326,14 @@ blockquote {
 code {
   background: rgba(255, 255, 255, 0.075);
   border-radius: 0.25rem;
-  font-family: "Courier New", monospace;
+  font-family: Garamond, monospace;
   font-size: 0.8rem;
   margin: 0 0.25rem;
   padding: 0.25rem 0.65rem; }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Courier New", monospace;
+  font-family: Garamond, monospace;
   font-size: 0.8rem;
   margin: 0 0 1.5rem 0;
   white-space: pre-wrap; }
@@ -451,9 +449,9 @@ form {
 label {
   color: rgba(255, 255, 255, 0.875);
   display: block;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Garamond, Helvetica, sans-serif;
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 400;
   margin: 0 0 0.4875rem 0; }
 
 input[type="text"],
@@ -1072,9 +1070,9 @@ button,
   color: rgba(255, 255, 255, 0.875) !important;
   cursor: pointer;
   display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 0.6rem;
-  font-weight: 700;
+  font-weight: 400;
   height: 2.75rem;
   letter-spacing: 0.15rem;
   line-height: 2.75rem;
@@ -2336,14 +2334,16 @@ button,
     -ms-justify-content: -ms-flex-start;
     justify-content: flex-start; }
     .panel.spotlight.left .content {
-      background-image: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.125) 30%, rgba(0, 0, 0, 0.175) 50%); }
+      /* 				background-image: linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.125) 30%, rgba(0,0,0,0.175) 50%);
+       */ }
   .panel.spotlight.right {
     -moz-justify-content: -moz-flex-end;
     -webkit-justify-content: -webkit-flex-end;
     -ms-justify-content: -ms-flex-end;
     justify-content: flex-end; }
     .panel.spotlight.right .content {
-      background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.125) 30%, rgba(0, 0, 0, 0.175) 50%); }
+      /* 				background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.125) 30%, rgba(0,0,0,0.175) 50%);
+       */ }
 
 @media screen and (max-width: 736px) {
   .panel.spotlight .content {
@@ -2352,7 +2352,8 @@ button,
     -webkit-flex-direction: column !important;
     -ms-flex-direction: column !important;
     flex-direction: column !important;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 70%, rgba(0, 0, 0, 0.175)) !important;
+    /* 				background-image: linear-gradient(0deg, rgba(0,0,0,0.25) 70%, rgba(0,0,0,0.175)) !important;
+     */
     min-height: 25rem; } }
 @media screen and (max-width: 480px) {
   .panel.spotlight .content {
@@ -2362,7 +2363,7 @@ button,
 @media (hover: hover) and (pointer: fine) {
   #timeline {
     display: flex;
-    background-color: #031625; }
+    background-color: #134080; }
 
   .tl-item {
     transform: translate3d(0, 0, 0);
@@ -2414,7 +2415,7 @@ button,
     top: 35%;
     opacity: 0; }
     .tl-content h1 {
-      font-family: 'Source Sans Pro', Helvetica,sans-serif;
+      font-family: 'Garamond', Helvetica,sans-serif;
       color: #ffffff;
       font-size: 1.44rem;
       font-weight: bold; }
@@ -2425,10 +2426,10 @@ button,
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     z-index: 1;
-    border-bottom: 0.1px solid #97979780; }
+    border-bottom: 0.1px solid #ffffffc4; }
     .tl-name p {
-      font-family: 'Source Sans Pro', Helvetica,sans-serif;
-      font-weight: bold;
+      font-family: 'Garamond', Helvetica,sans-serif;
+      font-weight: 500;
       font-size: 1.728rem;
       line-height: 0; }
 
@@ -2448,7 +2449,7 @@ button,
 @media (hover: none) and (max-width: 736px) {
   #timeline {
     display: flex;
-    background-color: #031625; }
+    background-color: #134080; }
 
   .tl-item {
     transform: translate3d(0, 0, 0);
@@ -2500,7 +2501,7 @@ button,
     top: 50%;
     opacity: 0; }
     .tl-content h1 {
-      font-family: 'Source Sans Pro', Helvetica,sans-serif;
+      font-family: 'Garamond', Helvetica,sans-serif;
       color: #ffffff;
       font-size: 1.44rem;
       font-weight: bold; }
@@ -2511,10 +2512,10 @@ button,
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     z-index: 1;
-    border-bottom: 0.1px solid #97979780; }
+    border-bottom: 0.1px solid #ffffffc4; }
     .tl-name p {
-      font-family: 'Source Sans Pro', Helvetica,sans-serif;
-      font-weight: bold;
+      font-family: 'Garamond', Helvetica,sans-serif;
+      font-weight: 500;
       font-size: 1.728rem;
       line-height: 0; }
 
@@ -2534,7 +2535,7 @@ button,
 @media (hover: none) and (min-width: 737px) {
   #timeline {
     display: flex;
-    background-color: #031625; }
+    background-color: #134080; }
 
   .tl-item {
     transform: translate3d(0, 0, 0);
@@ -2586,7 +2587,7 @@ button,
     top: 35%;
     opacity: 0; }
     .tl-content h1 {
-      font-family: 'Source Sans Pro', Helvetica,sans-serif;
+      font-family: 'Garamond', Helvetica,sans-serif;
       color: #ffffff;
       font-size: 1.44rem;
       font-weight: bold; }
@@ -2597,10 +2598,10 @@ button,
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     z-index: 1;
-    border-bottom: 0.1px solid #97979780; }
+    border-bottom: 0.1px solid #ffffffc4; }
     .tl-name p {
-      font-family: 'Source Sans Pro', Helvetica,sans-serif;
-      font-weight: bold;
+      font-family: 'Garamond', Helvetica,sans-serif;
+      font-weight: 500;
       font-size: 1.728rem;
       line-height: 0; }
 
