@@ -34,13 +34,14 @@
 			'color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
 		));
-		color: inherit;
+		color: _palette(accent3);
 		border-bottom: dotted 1px;
 		text-decoration: none;
+		font-weight: _font(weight-bold);
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(accent3);
+			color: _palette(accent4);
 		}
 	}
 

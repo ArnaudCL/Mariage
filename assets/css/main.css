@@ -222,7 +222,7 @@ html {
 
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.75);
-  font-family: Helvetica, sans-serif;
+  font-family: Georgia, sans-serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.65; }
@@ -232,16 +232,17 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  color: inherit;
+  color: #FFF8EB;
   border-bottom: dotted 1px;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 600; }
   a:hover {
     border-bottom-color: transparent;
-    color: #FFF8EB; }
+    color: #134080; }
 
 strong, b {
   color: rgba(255, 255, 255, 0.875);
-  font-weight: 400; }
+  font-weight: 600; }
 
 em, i {
   font-style: italic; }
@@ -794,7 +795,7 @@ dl {
   margin: 0 0 1.5rem 0; }
   dl dt {
     display: block;
-    font-weight: 400;
+    font-weight: 600;
     margin: 0 0 0.75rem 0; }
   dl dd {
     margin-left: 1.5rem; }
@@ -1027,7 +1028,7 @@ table {
   table th {
     color: rgba(255, 255, 255, 0.875);
     font-size: 0.9rem;
-    font-weight: 400;
+    font-weight: 600;
     padding: 0 0.75rem 0.75rem 0.75rem;
     text-align: left; }
   table thead {
@@ -1070,7 +1071,7 @@ button,
   color: rgba(255, 255, 255, 0.875) !important;
   cursor: pointer;
   display: inline-block;
-  font-family: Helvetica, sans-serif;
+  font-family: Georgia, sans-serif;
   font-size: 0.6rem;
   font-weight: 400;
   height: 2.75rem;
