@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Aston-Script";
+  src: url("fonts/Aston-Script.ttf"); }
+.Aston-Script {
+  font-family: "Aston-Script"; }
+
+@font-face {
+  font-family: "Source";
+  src: url("fonts/Source.ttf"); }
+.Source {
+  font-family: "Source"; }
+
 /*
 	Ethereal by HTML5 UP
 	html5up.net | @ajlkn

@@ -1,5 +1,17 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+@font-face {
+  font-family: "Aston-Script";
+  src: url("fonts/Aston-Script.ttf"); }
+.Aston-Script {
+  font-family: "Aston-Script"; }
+
+@font-face {
+  font-family: "Source";
+  src: url("fonts/Source.ttf"); }
+.Source {
+  font-family: "Source"; }
+
 /*
 	Ethereal by HTML5 UP
 	html5up.net | @ajlkn
@@ -223,9 +235,9 @@ html {
 
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.75);
-  font-family: Georgia, serif;
+  font-family: "Source", serif;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65; }
 
 a {
@@ -258,7 +270,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.875);
-  font-family: Garamond, Helvetica, serif;
+  font-family: "Aston-Script", Helvetica, serif;
   font-weight: 400;
   line-height: 1.3;
   margin: 0 0 0.75rem 0; }
@@ -328,14 +340,14 @@ blockquote {
 code {
   background: rgba(255, 255, 255, 0.075);
   border-radius: 0.25rem;
-  font-family: Garamond, serif;
+  font-family: "Source", serif;
   font-size: 0.8rem;
   margin: 0 0.25rem;
   padding: 0.25rem 0.65rem; }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: Garamond, serif;
+  font-family: "Source", serif;
   font-size: 0.8rem;
   margin: 0 0 1.5rem 0;
   white-space: pre-wrap; }
@@ -451,7 +463,7 @@ form {
 label {
   color: rgba(255, 255, 255, 0.875);
   display: block;
-  font-family: Garamond, Helvetica, serif;
+  font-family: "Aston-Script", Helvetica, serif;
   font-size: 0.8rem;
   font-weight: 400;
   margin: 0 0 0.4875rem 0; }
@@ -539,7 +551,7 @@ input[type="radio"] {
     cursor: pointer;
     display: inline-block;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 0;
     padding-left: 2.5rem;
     padding-right: 1rem; }
@@ -1072,7 +1084,7 @@ button,
   color: rgba(255, 255, 255, 0.875) !important;
   cursor: pointer;
   display: inline-block;
-  font-family: Georgia, serif;
+  font-family: "Source", serif;
   font-size: 0.6rem;
   font-weight: 400;
   height: 2.75rem;

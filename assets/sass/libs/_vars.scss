@@ -23,12 +23,31 @@
 	);
 
 // Font.
+	@font-face {
+		font-family: "Aston-Script";
+		src: url("fonts/Aston-Script.ttf");
+	}
+
+	.Aston-Script {
+		font-family: "Aston-Script";
+
+	}
+
+	@font-face {
+		font-family: "Source";
+		src: url("fonts/Source.ttf");
+	}
+
+	.Source{
+		font-family: "Source";
+
+	}
 
 	$font: (
-		family:							(Georgia, serif),
-		family-heading:					(Garamond, Helvetica, serif),
-		family-fixed:					(Garamond, serif),
-		weight:							300,
+		family:							("Source", serif),
+		family-heading:					("Aston-Script", Helvetica, serif),
+		family-fixed:					("Source", serif),
+		weight:							400,
 		weight-bold:					600,
 		weight-heading:					400
 	);
