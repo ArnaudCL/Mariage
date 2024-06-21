@@ -3,7 +3,7 @@
 /* =================== ORDINATEUR ===================
  */
 
-@media(hover: hover) and (pointer: fine) {
+@media(hover: hover) and (pointer: fine) and (min-width : 737px) {
   #timeline {
     display: flex;
     background-color: #134080;
@@ -246,7 +246,7 @@
 /* =================== GRAND TACTILE ===================
  */
 
-@media  (min-width : 737px) {
+@media (min-width : 737px) {
   #timeline {
     display: flex;
     background-color: #134080;
