@@ -2542,7 +2542,7 @@ button,
     filter: grayscale(100%); } }
 /* =================== PETIT TACTILE ===================
  */
-@media (hover: none) and (max-width: 736px) {
+@media (max-width: 736px) {
   #timeline {
     display: flex;
     background-color: #134080; }
@@ -2628,7 +2628,7 @@ button,
     filter: grayscale(100%); } }
 /* =================== GRAND TACTILE ===================
  */
-@media (hover: none) and (min-width: 737px) {
+@media (min-width: 737px) {
   #timeline {
     display: flex;
     background-color: #134080; }
