@@ -296,6 +296,10 @@
 
 			@include spans-small(_size(span-fixed));
 
+			.span-small-exception {
+				@include spans-small(_size(span-variable));
+				width: 50% !important;
+			}
 			&.small,
 			&.medium,
 			&.large {

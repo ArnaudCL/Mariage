@@ -134,7 +134,8 @@ body {
   width: 100%;
   height: 100%;
   min-height: 30rem;
-  overflow: hidden; }
+  overflow: hidden;
+  overscroll-behavior-x: contain; }
   body:before {
     -moz-animation: load-spinner 1s infinite linear;
     -webkit-animation: load-spinner 1s infinite linear;
@@ -196,7 +197,7 @@ body {
     transition-delay: 0.75s;
     opacity: 0.25; }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 980px) {
   html {
     height: auto; }
 
@@ -222,7 +223,7 @@ html {
 
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.75);
-  font-family: Georgia, sans-serif;
+  font-family: Georgia, serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.65; }
@@ -257,7 +258,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.875);
-  font-family: Garamond, Helvetica, sans-serif;
+  font-family: Garamond, Helvetica, serif;
   font-weight: 400;
   line-height: 1.3;
   margin: 0 0 0.75rem 0; }
@@ -327,14 +328,14 @@ blockquote {
 code {
   background: rgba(255, 255, 255, 0.075);
   border-radius: 0.25rem;
-  font-family: Garamond, monospace;
+  font-family: Garamond, serif;
   font-size: 0.8rem;
   margin: 0 0.25rem;
   padding: 0.25rem 0.65rem; }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: Garamond, monospace;
+  font-family: Garamond, serif;
   font-size: 0.8rem;
   margin: 0 0 1.5rem 0;
   white-space: pre-wrap; }
@@ -450,7 +451,7 @@ form {
 label {
   color: rgba(255, 255, 255, 0.875);
   display: block;
-  font-family: Garamond, Helvetica, sans-serif;
+  font-family: Garamond, Helvetica, serif;
   font-size: 0.8rem;
   font-weight: 400;
   margin: 0 0 0.4875rem 0; }
@@ -1071,7 +1072,7 @@ button,
   color: rgba(255, 255, 255, 0.875) !important;
   cursor: pointer;
   display: inline-block;
-  font-family: Georgia, sans-serif;
+  font-family: Georgia, serif;
   font-size: 0.6rem;
   font-weight: 400;
   height: 2.75rem;
@@ -2076,6 +2077,88 @@ button,
       width: 100%; }
     .panel .span-10 {
       width: 100%; }
+    .panel .span-small-exception {
+      width: 50% !important; }
+      .panel .span-small-exception .span-0-25 {
+        width: 100%; }
+      .panel .span-small-exception .span-0-5 {
+        width: 100%; }
+      .panel .span-small-exception .span-0-75 {
+        width: 100%; }
+      .panel .span-small-exception .span-1 {
+        width: 100%; }
+      .panel .span-small-exception .span-1-25 {
+        width: 100%; }
+      .panel .span-small-exception .span-1-5 {
+        width: 100%; }
+      .panel .span-small-exception .span-1-75 {
+        width: 100%; }
+      .panel .span-small-exception .span-2 {
+        width: 100%; }
+      .panel .span-small-exception .span-2-25 {
+        width: 100%; }
+      .panel .span-small-exception .span-2-5 {
+        width: 100%; }
+      .panel .span-small-exception .span-2-75 {
+        width: 100%; }
+      .panel .span-small-exception .span-3 {
+        width: 100%; }
+      .panel .span-small-exception .span-3-25 {
+        width: 100%; }
+      .panel .span-small-exception .span-3-5 {
+        width: 100%; }
+      .panel .span-small-exception .span-3-75 {
+        width: 100%; }
+      .panel .span-small-exception .span-4 {
+        width: 100%; }
+      .panel .span-small-exception .span-4-25 {
+        width: 100%; }
+      .panel .span-small-exception .span-4-5 {
+        width: 100%; }
+      .panel .span-small-exception .span-4-75 {
+        width: 100%; }
+      .panel .span-small-exception .span-5 {
+        width: 100%; }
+      .panel .span-small-exception .span-5-25 {
+        width: 100%; }
+      .panel .span-small-exception .span-5-5 {
+        width: 100%; }
+      .panel .span-small-exception .span-5-75 {
+        width: 100%; }
+      .panel .span-small-exception .span-6 {
+        width: 100%; }
+      .panel .span-small-exception .span-6-25 {
+        width: 100%; }
+      .panel .span-small-exception .span-6-5 {
+        width: 100%; }
+      .panel .span-small-exception .span-6-75 {
+        width: 100%; }
+      .panel .span-small-exception .span-7 {
+        width: 100%; }
+      .panel .span-small-exception .span-7-25 {
+        width: 100%; }
+      .panel .span-small-exception .span-7-5 {
+        width: 100%; }
+      .panel .span-small-exception .span-7-75 {
+        width: 100%; }
+      .panel .span-small-exception .span-8 {
+        width: 100%; }
+      .panel .span-small-exception .span-8-25 {
+        width: 100%; }
+      .panel .span-small-exception .span-8-5 {
+        width: 100%; }
+      .panel .span-small-exception .span-8-75 {
+        width: 100%; }
+      .panel .span-small-exception .span-9 {
+        width: 100%; }
+      .panel .span-small-exception .span-9-25 {
+        width: 100%; }
+      .panel .span-small-exception .span-9-5 {
+        width: 100%; }
+      .panel .span-small-exception .span-9-75 {
+        width: 100%; }
+      .panel .span-small-exception .span-10 {
+        width: 100%; }
     .panel.small, .panel.medium, .panel.large {
       width: 100% !important; }
       .panel.small .span-0-25, .panel.medium .span-0-25, .panel.large .span-0-25 {
@@ -2679,7 +2762,7 @@ button,
   transition-delay: 0.25s;
   cursor: default;
   position: relative;
-  height: 40rem;
+  height: 34rem;
   box-shadow: 0 2rem 4rem 0.25rem rgba(54, 54, 54, 0.575); }
   #wrapper > .scrollZone {
     position: fixed;

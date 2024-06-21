@@ -44,6 +44,7 @@
 		height: 100%;
 		min-height: 30rem;
 		overflow: hidden;
+		overscroll-behavior-x: contain;
 
 		&:before {
 			@include vendor('animation', 'load-spinner 1s infinite linear');
@@ -99,7 +100,7 @@
 
 	}
 
-	@include breakpoint('<=small') {
+	@include breakpoint('<=medium') {
 		html {
 			height: auto;
 		}
